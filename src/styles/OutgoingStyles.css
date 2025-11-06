@@ -1,0 +1,85 @@
+.outgoing-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+}
+
+.outgoing-card {
+  border: 1px solid #ddd;
+  background: #fafafa;
+  padding: 14px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-tag {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.status-tag.pending {
+  background: #fff4c2;
+  color: #a67c00;
+}
+
+.status-tag.accepted {
+  background: #d6ffd8;
+  color: #006b12;
+}
+
+.status-tag.rejected {
+  background: #ffd6d6;
+  color: #b30000;
+}
+
+.request-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 14px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.req-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.accept-btn {
+  background: #0a7f35;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.reject-btn {
+  background: #b30000;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.status-badge {
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: #eef;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.req-empty {
+  margin-top: 20px;
+  text-align: center;
+  color: #666;
+}

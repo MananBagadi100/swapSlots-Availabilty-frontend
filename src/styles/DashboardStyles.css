@@ -20,3 +20,108 @@
     padding: 8px 12px;
     border-radius: 16px;
 }
+/*from here*/
+.dashboard-container {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.event-list {
+  list-style: none;
+  padding: 0;
+}
+
+.event-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fafafa;
+  margin-bottom: 12px;
+  padding: 14px 18px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.event-title {
+  font-weight: 600;
+}
+
+.event-status {
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.event-status.busy {
+  background: #ffd6d6;
+  color: #b30000;
+}
+
+.event-status.swappable {
+  background: #d6ffd8;
+  color: #006b12;
+}
+
+.toggle-btn, .delete-btn {
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.toggle-btn {
+  background: #007aff;
+  color: white;
+}
+
+.delete-btn {
+  background: #ff4c4c;
+  color: white;
+}
+
+.add-event-btn {
+  margin-bottom: 15px;
+  padding: 8px 14px;
+  background: #007aff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.4);
+  display: flex; justify-content: center; align-items: center;
+}
+
+.modal-box {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.modal-box input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.modal-box button {
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.modal-box button[type="submit"] {
+  background: #007aff;
+  color: white;
+}

@@ -28,6 +28,7 @@ const Login = () => {
         formState: { errors,isSubmitting,},
     } = useForm({ criteriaMode : 'all'})
     const onSubmit = async (data) => {
+        await axiosClient.post("/api/logout").catch(()=>{});
         console.log(data)
         clearErrors()
         try {
