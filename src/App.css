@@ -1,0 +1,16 @@
+.all-pages-container {
+  display: flex;
+  flex-direction: column; /* Navbar on top, pages below */
+  height: 100%;           /* Fills #root */
+  width: 100%;
+}
+.page-contents {
+    display: flex;
+    flex: 1 1 auto;
+}
+:root {
+    --txt-color : white;
+    --btn-bg : #4998e8;
+    --nav-bg: #0E2954;
+    --form-body: #bbdeff;
+}

@@ -1,0 +1,22 @@
+.marketPlace-main-div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.marketPlace-msg {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+}
+.marketPlace-login-redirect-btn {
+    text-decoration: none;
+    color: var(--txt-color);
+    background-color: var(--btn-bg);
+    padding: 8px 12px;
+    border-radius: 16px;
+}

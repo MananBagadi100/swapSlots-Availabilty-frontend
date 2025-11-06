@@ -1,0 +1,40 @@
+.navbar-main-container {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   height: 60px; 
+   background-color: #0E2954;
+   box-sizing: border-box;
+}
+.navbar-contents {
+    display: flex;
+    width: 100%;
+    margin-left: 32px;
+    box-sizing: border-box;
+}
+.display-login-state-wrapper {
+    display: flex;
+    margin-left: auto;
+    height: 100%;
+    padding: 0 20px;
+    align-items: center;
+}
+.navbar-items {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    box-sizing: border-box;
+}
+.navbar-option {
+    text-decoration: none;
+    color: var(--txt-color);
+    font-size: 18px;
+}
+.login-state-display {
+    text-decoration: none;
+    color: var(--txt-color);
+    border-radius: 16px;
+    background-color: var(--btn-bg);
+    padding: 8px 12px;
+}

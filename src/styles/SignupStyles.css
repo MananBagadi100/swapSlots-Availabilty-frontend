@@ -1,0 +1,75 @@
+.main-signup-full-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+.signup-dialog-box {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 350px;
+    box-sizing: border-box;
+}
+.dialog-box-heading-area {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: var(--nav-bg);
+    color: var(--txt-color);
+    border-radius: 16px 16px 0 0;
+}
+.dialog-box-content-area {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    box-sizing: border-box;
+    background-color: var(--form-body);
+    padding: 12px 8px;
+    align-items: center;
+    border-radius: 0 0 16px 16px;
+    justify-content: center;
+}
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.signup-input-field-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 8px 0;
+}
+.signup-input-fields {
+    display: flex;
+    width: 75%;
+    height: 24px;
+    border-radius: 4px;
+}
+.serverErrors {
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+.signup-submit-btn-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.signup-details-submit-btn {
+    width: 40%;
+    background-color: var(--btn-bg);
+    color: var(--txt-color);
+    padding: 8px 12px;
+    border-radius: 16px;
+}
